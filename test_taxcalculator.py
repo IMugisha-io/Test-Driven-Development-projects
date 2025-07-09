@@ -8,3 +8,6 @@ from taxCalculator import taxcalculator
 def test_taxcalculator_0():
     assert taxcalculator(0)==0
 
+def test_taxcalculator_10000():
+    assert taxcalculator(10000)==0    
+
