@@ -4,5 +4,15 @@
 #then with earnings greater than 36000 per year, pay 40% tax
 #Use a test first approach.  Commit at least after every passing test.
 
+#---------- <12000---------------------
+'''def taxcalculator (a):
+    return 0 '''
+
+#----------  12,000 < > 36,000---------------------
 def taxcalculator (a):
-    return 0
+    if a < 12000:
+        result = 0
+    else: 
+       result = a * 0.20
+
+    return result
