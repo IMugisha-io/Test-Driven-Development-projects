@@ -5,12 +5,12 @@
 
 #-------------0! & 1!--------------------------
 
-#def factorial (a):
-#    return 1
+'''def factorial (a):
+    return 1 '''
 
 
-'''-------------2! & 3!--------------------------
-def factorial (a):
+#-------------2! & 3!--------------------------
+'''def factorial (a):
     if a < 2 :
         result = 1
     else :
@@ -18,6 +18,7 @@ def factorial (a):
     return result '''
         
 #-------------4!--------------------------  
+
 def factorial (a):
     if a < 2 :
         result = 1
@@ -28,3 +29,4 @@ def factorial (a):
             result = product
         
     return result 
+
