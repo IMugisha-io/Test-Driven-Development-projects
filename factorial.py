@@ -5,5 +5,11 @@
 
 #-------------0!--------------------------
 def factorial (a):
-    return 1
+    if a < 2 :
+        result = 1
+    else :
+        result = a * (a-1)
+    return result
+        
     
+        
