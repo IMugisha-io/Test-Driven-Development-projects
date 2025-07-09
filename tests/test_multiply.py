@@ -10,3 +10,6 @@ def test_multiply_1_1():
 
 def test_multiply_2_2():
     assert multiply(2,2) ==4
+
+def test_multiply_3_3():
+    assert multiply(3,3) ==9
