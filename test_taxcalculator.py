@@ -15,4 +15,10 @@ def test_taxcalculator_12000():
     assert taxcalculator(12000)== 12000 *0.2   
 
 def test_taxcalculator_30000():
-    assert taxcalculator(30000)==30000 * 0.2 
+    assert taxcalculator(30000)==30000*0.2 
+
+def test_taxcalculator_36000():
+    assert taxcalculator(36000)==36000*0.2 
+
+def test_taxcalculator_40000():
+    assert taxcalculator(40000)==40000*0.4

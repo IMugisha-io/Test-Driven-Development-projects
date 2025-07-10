@@ -8,11 +8,22 @@
 '''def taxcalculator (a):
     return 0 '''
 
-#----------  12,000 < > 36,000---------------------
-def taxcalculator (a):
+#----------  20 % brackert ---------------------
+'''def taxcalculator (a):
     if a < 12000:
         result = 0
     else: 
        result = a * 0.20
+
+    return result '''
+
+#----------  a > 36,000 ; 40%  brackert ---------------------
+def taxcalculator (a):
+    if a < 12000:
+        result = 0
+    elif a <  36001 :
+        result = a * 0.20
+    else : 
+        result = a * 0.4
 
     return result
