@@ -23,10 +23,13 @@ def fibonacci (a):
         return a-1
     '''
 #-------------F5 -------------
-def fibonacci (a):
-    if a < 2 :
-        return a
-    elif a < 4 :
-        return a-1
+def fibonacci(a):
+    if a == 0:
+        return 0
+    elif a == 1:
+        return 1
     else:
-        return (a-(a-2)) + (a-(a-1))
+        x ,y = 0,1
+        for _ in range(2, a + 1):
+            x, y = y, x + y
+        return y

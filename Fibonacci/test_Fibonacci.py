@@ -17,3 +17,6 @@ def test_fibonacci_4 ():
 
 def test_fibonacci_5 ():
     assert fibonacci (5)==5
+
+def test_fibonacci_10 ():
+    assert fibonacci (10)==55
